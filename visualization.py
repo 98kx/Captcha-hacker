@@ -37,7 +37,7 @@ def visualize(model, datas):
 					os.mkdir(layer_dir)
 				save_path = layer_dir+'/%d.jpg'%k
 				im.save(save_path)
-			print layer_dir
+			print(layer_dir)
 
 
 if __name__ == '__main__':
